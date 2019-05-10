@@ -128,7 +128,7 @@ a:focus {
 	align-items: center;
 	justify-content: center;
 	padding: 0 0 1em;
-	height: 140vh;
+	/*height: 140vh;*/
 	min-height: 400px;
 }
 
@@ -146,8 +146,8 @@ a:focus {
 }
 
 .grid {
-	flex: auto;
-	display: flex;
+	/*flex: none;*/
+	display: contents;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
@@ -698,7 +698,7 @@ a:focus {
 	margin: 0;
 	padding: 0.5em;
 }
-
+/*
 @media screen and (max-width: 42em) {
 	.dummy {
 		opacity: 0;
@@ -714,4 +714,4 @@ a:focus {
 	.message-mobile {
 		display: block;
 	}
-}
+}*/
