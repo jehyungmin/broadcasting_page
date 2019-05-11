@@ -24,7 +24,6 @@ Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www
 
 [© Codrops 2017](http://www.codrops.com)
 
-https://jehyungmin.github.io/broadcasting_page/
 
 111
 
