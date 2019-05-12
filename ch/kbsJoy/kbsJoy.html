@@ -60,14 +60,14 @@ $(document).ready(function()
 							if(Hls.isSupported()) {
 							  var video = document.getElementById('video');
 							  var hls = new Hls();
-							  hls.loadSource('http://hls.live.kbskme.gscdn.com/www_kbsn_joy/_definst_/kbsn_joy_3.stream/chunklist_w1853554186.m3u8?tid=7a96e5412ede596ae370eeed3c6b95ae');
+							  hls.loadSource('http://hls.live.kbskme.gscdn.com/www_kbsn_joy/_definst_/kbsn_joy_3.stream/chunklist_w605307802.m3u8?tid=b707161061985b444d4d8a8680658079');
 							  hls.attachMedia(video);
 							  hls.on(Hls.Events.MANIFEST_PARSED,function() {
 								video.play();
 							});
 							}
 							else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-							  video.src = 'http://hls.live.kbskme.gscdn.com/www_kbsn_joy/_definst_/kbsn_joy_3.stream/chunklist_w1853554186.m3u8?tid=7a96e5412ede596ae370eeed3c6b95ae';
+							  video.src = 'http://hls.live.kbskme.gscdn.com/www_kbsn_joy/_definst_/kbsn_joy_3.stream/chunklist_w605307802.m3u8?tid=b707161061985b444d4d8a8680658079';
 							  video.addEventListener('canplay',function() {
 								video.play();
 							  });
@@ -76,8 +76,8 @@ $(document).ready(function()
 
 							<br>
 							<h4>모바일일때 시청</h4>
-							<iframe src="http://hls.live.kbskme.gscdn.com/www_kbsn_joy/_definst_/kbsn_joy_3.stream/chunklist_w1853554186.m3u8?tid=7a96e5412ede596ae370eeed3c6b95ae" scrolling="no" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="background-color:#000; width:100%; height:100%;">
-							</iframe>
+							<embed src="http://hls.live.kbskme.gscdn.com/www_kbsn_joy/_definst_/kbsn_joy_3.stream/chunklist_w605307802.m3u8?tid=b707161061985b444d4d8a8680658079" scrolling="no" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="background-color:#000; width:100%; height:100%;">
+							</embed>
 								</div>
 			</div>
 		</div>

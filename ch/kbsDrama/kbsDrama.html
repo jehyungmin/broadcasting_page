@@ -61,14 +61,14 @@ $(document).ready(function()
 							if(Hls.isSupported()) {
 							  var video = document.getElementById('video');
 							  var hls = new Hls();
-							  hls.loadSource('http://hls.live.kbskme.gscdn.com/www_kbsn_drama/_definst_/kbsn_drama_3.stream/chunklist_w996859979.m3u8?tid=b12d363878d6cb83674c17c80eb60e66');
+							  hls.loadSource('http://hls.live.kbskme.gscdn.com/www_kbsn_drama/_definst_/kbsn_drama_3.stream/chunklist_w52009833.m3u8?tid=72bc5e8069a2f94c43031aa334621022');
 							  hls.attachMedia(video);
 							  hls.on(Hls.Events.MANIFEST_PARSED,function() {
 								video.play();
 							});
 							}
 							else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-							  video.src = 'http://hls.live.kbskme.gscdn.com/www_kbsn_drama/_definst_/kbsn_drama_3.stream/chunklist_w996859979.m3u8?tid=b12d363878d6cb83674c17c80eb60e66';
+							  video.src = 'http://hls.live.kbskme.gscdn.com/www_kbsn_drama/_definst_/kbsn_drama_3.stream/chunklist_w52009833.m3u8?tid=72bc5e8069a2f94c43031aa334621022';
 							  video.addEventListener('canplay',function() {
 								video.play();
 							  });
@@ -77,8 +77,8 @@ $(document).ready(function()
 
 							<br>
 							<h4>모바일일때 시청</h4>
-							<iframe src=http://hls.live.kbskme.gscdn.com/www_kbsn_drama/_definst_/kbsn_drama_3.stream/chunklist_w996859979.m3u8?tid=b12d363878d6cb83674c17c80eb60e66" scrolling="no" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="background-color:#000; width:100%; height:100%;">
-							</iframe>
+							<embed src=http://hls.live.kbskme.gscdn.com/www_kbsn_drama/_definst_/kbsn_drama_3.stream/chunklist_w52009833.m3u8?tid=72bc5e8069a2f94c43031aa334621022" scrolling="no" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="background-color:#000; width:100%; height:100%;">
+							</embed>
 								</div>
 			</div>
 		</div>
