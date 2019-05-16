@@ -162,7 +162,7 @@ a:focus {
 	margin: 2em;
 	counter-increment: folderstyle;
 	font-weight: bold;
-	content: "folder style \203A  00" counter(folderstyle);
+	/* content: "folder style \203A  00" counter(folderstyle); */
 	letter-spacing: 1px;
 	font-size: 0.95em;
 	color: #323437;
